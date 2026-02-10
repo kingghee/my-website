@@ -7,11 +7,17 @@
 </head>
 <body>
 
-<header>
-    <h1>Contact Us</h1>
+<!-- HEADER -->
+<header class="site-header">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>We’d Love to Hear From You</p>
+    </div>
 </header>
-<nav>
-    <div class="nav-container">
+
+<!-- NAVIGATION -->
+<nav class="navbar">
+    <div class="container">
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -21,25 +27,85 @@
         </ul>
     </div>
 </nav>
+
+<!-- MAIN CONTENT -->
 <main>
-    <h2>Get in Touch</h2>
-    <p>
-        If you have questions or feedback, please reach out using the information below.
-    </p>
 
+    <!-- INTRO -->
+    <section class="features">
+        <div class="container">
+            <h3>Get in Touch</h3>
+            <p>
+                If you have questions, suggestions, or feedback about Digital Skills Hub,
+                feel free to reach out using the form or contact details below.
+            </p>
+        </div>
+    </section>
 
-    <div class="contact-info">
-        <strong>Email:</strong> 
-        <a href="mailto:info@digitalskillshub.com" style="color: #6366f1; text-decoration: none;">
-            info@digitalskillshub.com
-        </a>
-    </div>
+    <!-- CONTACT DETAILS + FORM -->
+    <section class="hero">
+        <div class="container hero-grid">
 
-    
+            <!-- CONTACT INFO -->
+            <div class="hero-text">
+                <h2>Contact Information</h2>
+                <p>
+                    <strong>Email:</strong><br>
+                    <a href="mailto:info@digitalskillshub.com" style="color:#2563eb; text-decoration:none;">
+                        info@digitalskillshub.com
+                    </a>
+                </p>
+
+                <p>
+                    We aim to respond to all messages as quickly as possible.
+                </p>
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="hero-text">
+                <h2>Send a Message</h2>
+
+                <form>
+                    <p>
+                        <input type="text" placeholder="Your Name" required
+                               style="width:100%; padding:12px; margin-bottom:10px;">
+                    </p>
+
+                    <p>
+                        <input type="email" placeholder="Your Email" required
+                               style="width:100%; padding:12px; margin-bottom:10px;">
+                    </p>
+
+                    <p>
+                        <textarea placeholder="Your Message" rows="4" required
+                                  style="width:100%; padding:12px; margin-bottom:15px;"></textarea>
+                    </p>
+
+                    <button type="submit" class="btn">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h3>Thank You for Visiting</h3>
+            <p>
+                Your feedback helps us improve and serve students better.
+            </p>
+            <a href="index.html" class="btn btn-light">Back to Home</a>
+        </div>
+    </section>
+
 </main>
 
-<footer>
-    <p>&copy; 2026 Digital Skills Hub</p>
+<!-- FOOTER -->
+<footer class="site-footer">
+    <p>&copy; 2026 Digital Skills Hub. All Rights Reserved.</p>
 </footer>
 
 </body>
